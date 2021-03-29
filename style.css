@@ -1,0 +1,40 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 20%;
+  padding-left: 15px;
+}
+
+.pagination {
+  font-size: 20px;
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.pagination li {
+  list-style-type: none;
+  padding: 0px 8px;
+}
+
+.pagination li.dots {
+  font-size: 22px;
+  cursor: default;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+
+.active {
+  color: black;
+  font-size: 25px;
+  font-weight: 900;
+}
